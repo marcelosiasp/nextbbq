@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0 !important;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: BERNIERDistressed;
+  src: url(./BERNIERDistressed-Regular.otf);
+}
+@font-face {
+  font-family: BERNIERRegular;
+  src: url(./BERNIERRegular-Regular.otf);
+}
+@font-face {
+  font-family: BERNIERShade;
+  src: url(./BERNIERShade-Regular.otf);
+}
+body {
+  background-image: url(../images/BBQ-BG.jpg);
+  font-family: BERNIERDistressed;
+  outline: 0 !important;
+  font-size: 18px;
+  font-weight: 400;
+}
+div.container {
+  display: flex;
+  flex-direction: column;
+}
+div.topo {
+  width: 100%;
+}
+div.title-event {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+}
+div.title-event h2 {
+  font-size: xxx-large;
+  color: #252525;
+}
+ul.listUsers {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+li.avatar {
+  margin: 0 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+li.avatar img {
+  max-width: 125px;
+  border-radius: 50%;
+  border: 1px solid #252525;
+  background-color: #cb382c;
+}
+#um {
+}
